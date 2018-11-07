@@ -13,7 +13,7 @@ var recipes = {};
 
 
 function deleteFromObjectByKey(object, key){
-
+ Object.assign({}, object, { key: value });
 
       expect(newObj['prop']).toBe(undefined)
     })
