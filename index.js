@@ -14,7 +14,7 @@ var recipes = {};
 
 function deleteFromObjectByKey(object, key){
  var n = Object.assign({}, object);
- delete n.key;
+ delete n[key];
  return n;
     }
 
